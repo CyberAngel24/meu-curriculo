@@ -13,11 +13,13 @@
 
 #header{
     grid-area:header;
+    text-align: center;
     
 }
 
 #menu{
     grid-area:menu;
+    text-align: center;
     
 
 }
@@ -32,13 +34,15 @@
 }
 
 .container div{
-    background-color: lightgrey;
+    background-color: white;
     padding:20px;
     
     
 }
  body{
     background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    
  }
 
  .conteudo-menu{
@@ -46,5 +50,13 @@ display: inline-flex;
 
  }
 
+ img{
+    height: 150px;
+    width:150px;
+ }
+
+ span{
+    color:gray;
+ }
 
  
